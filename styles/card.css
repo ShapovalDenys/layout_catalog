@@ -1,0 +1,106 @@
+.service {
+  width: 200px;
+  border: 1px solid #f3f3f3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+  padding: 30px 15px 15px;
+  padding-bottom: 15px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .service__photo {
+    height: 134px;
+    width: 160px; }
+  .service__name {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 45px 0 0; }
+  .service__key {
+    font-size: 11px;
+    line-height: 13px;
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin: 6px 0 15px; }
+  .service__block {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .service__block__stars object:nth-child(-n+4) {
+      background-image: url(../images/star-active.svg); }
+    .service__block__rating {
+      font-size: 11px;
+      line-height: 13px;
+      margin: 0;
+      padding-bottom: 5px; }
+    .service__block__star {
+      display: inline-block;
+      background-image: url(../images/star.svg);
+      background-repeat: no-repeat;
+      width: 15px;
+      height: 15px; }
+  .service__price {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+    width: 100%; }
+    .service__price__cost {
+      font-size: 11px;
+      line-height: 13px; }
+    .service__price__money {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 19px; }
+  .service__link {
+    height: 40px;
+    width: 170px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background: #00acdc;
+    border-radius: 5px; }
+    .service__link__url {
+      width: 100%;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 40px; }
+      .service__link__url:hover {
+        color: #00acdc;
+        background-color: white;
+        border-radius: 5px;
+        border: 1px solid; }
+
+/*# sourceMappingURL=card.css.map */
