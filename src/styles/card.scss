@@ -15,7 +15,7 @@ $normal-border-radius: 5px;
   border: 1px solid #f3f3f3;
   box-sizing: border-box;
   border-radius: $normal-border-radius;
-  padding: 30px 15px 15px;
+  padding: 0 15px;
   padding-bottom: 15px;
   flex-direction: column;
   margin-bottom: 50px;
@@ -24,6 +24,13 @@ $normal-border-radius: 5px;
   &__photo {
     height: 134px;
     width: 160px;
+    margin-top: 15px;
+    transition: transform 1s;
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.2);
+      outline: 3px solid #f3f3f3;
+    }
   }
   &__name {
     font-weight: 500;
@@ -86,6 +93,7 @@ $normal-border-radius: 5px;
       font-weight: bold;
       font-size: 14px;
       line-height: 40px;
+      transition: background-color 0.5s, color 0.5s, border 0.5s;
       &:hover {
         color: #00acdc;
         background-color: white;

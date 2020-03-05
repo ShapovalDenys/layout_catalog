@@ -12,7 +12,8 @@
     "predeploy": "npm run build && cp -R backstop_data/ dist/report",
     "deploy": "gh-pages -d dist",
     "start": "gulp",
-    "test": "npm run lint && npm run css:test"
+    "test": "npm run lint && npm run css:test",
+    "publish": "npm run deploy"
   },
   "keywords": [],
   "author": "Mate Academy",
