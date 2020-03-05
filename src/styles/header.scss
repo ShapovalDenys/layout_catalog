@@ -38,6 +38,7 @@
     line-height: 60px;
     position: relative;
     display: inline-block;
+    transition: color 0.5s;
     &:hover {
       color: #00acdc;
     }
