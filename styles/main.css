@@ -66,7 +66,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 5px;
-  padding: 30px 15px 15px;
+  padding: 0 15px;
   padding-bottom: 15px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -82,6 +82,7 @@
   .service__photo {
     height: 134px;
     width: 160px;
+    margin-top: 15px;
     -webkit-transition: -webkit-transform 1s;
     transition: -webkit-transform 1s;
     transition: transform 1s;
@@ -184,9 +185,8 @@ body {
   line-height: 14px; }
 
 .catalog {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }

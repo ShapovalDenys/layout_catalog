@@ -4,7 +4,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 5px;
-  padding: 30px 15px 15px;
+  padding: 0 15px;
   padding-bottom: 15px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -20,6 +20,7 @@
   .service__photo {
     height: 134px;
     width: 160px;
+    margin-top: 15px;
     -webkit-transition: -webkit-transform 1s;
     transition: -webkit-transform 1s;
     transition: transform 1s;
