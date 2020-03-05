@@ -40,7 +40,9 @@
     text-decoration: none;
     line-height: 60px;
     position: relative;
-    display: inline-block; }
+    display: inline-block;
+    -webkit-transition: color 0.5s;
+    transition: color 0.5s; }
     .nav__link:hover {
       color: #00acdc; }
 

@@ -19,7 +19,16 @@
           align-items: center; }
   .service__photo {
     height: 134px;
-    width: 160px; }
+    width: 160px;
+    -webkit-transition: -webkit-transform 1s;
+    transition: -webkit-transform 1s;
+    transition: transform 1s;
+    transition: transform 1s, -webkit-transform 1s; }
+    .service__photo:hover {
+      cursor: pointer;
+      -webkit-transform: scale(1.2);
+              transform: scale(1.2);
+      outline: 3px solid #f3f3f3; }
   .service__name {
     font-weight: 500;
     font-size: 12px;
@@ -96,7 +105,9 @@
       color: white;
       font-weight: bold;
       font-size: 14px;
-      line-height: 40px; }
+      line-height: 40px;
+      -webkit-transition: background-color 0.5s, color 0.5s, border 0.5s;
+      transition: background-color 0.5s, color 0.5s, border 0.5s; }
       .service__link__url:hover {
         color: #00acdc;
         background-color: white;
